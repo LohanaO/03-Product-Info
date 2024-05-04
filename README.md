@@ -10,7 +10,7 @@
 
 ### Ver demo
 
-[Demo](https://lohanao.github.io/02-blog-preview-card/)
+[Demo](https://lohanao.github.io/03-Product-Info/)
 
 ## Solución
 
