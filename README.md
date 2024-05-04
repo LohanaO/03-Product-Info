@@ -39,7 +39,7 @@ En este proyecto, utilicé HTML y CSS para crear una tarjeta de producto que mue
 
 ### Estructura HTML
 El contenido de la tarjeta de producto se estructuró utilizando elementos HTML semánticos para mejorar la accesibilidad y el SEO del sitio web. A continuación se muestra una vista general de la estructura HTML utilizada:
-
+---
 ```html
 
 <!DOCTYPE html>
@@ -159,7 +159,7 @@ El contenido de la tarjeta de producto se estructuró utilizando elementos HTML 
     </div>
 </body>
 </html>
-
+```
 
 
 Para lograr el diseño deseado de la tarjeta de producto, sigue estos pasos:
