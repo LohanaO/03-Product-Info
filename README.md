@@ -13,4 +13,11 @@
 [Demo](https://lohanao.github.io/03-Product-Info/)
 
 ## Solución
+### Darle color de fonso al body y la letra que vamos a utilizar.
+### Crear un contenedor principal usando flex para centrar la card. 
+### Cerar un contendor con la card.
+### Definir el color de fondo de la card y dos contenedores dentro uno para la imagen y otro para el resto del contenido, hacer este contenedor flex para que la imagen y el contenido queden uno al lado del otro como en la imagen.
+### Al contenedor de la imagen darle las medidas especificadas y usar object fit para que no se deforme la imagen.
+
+
 
