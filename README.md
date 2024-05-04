@@ -164,17 +164,50 @@ El contenido de la tarjeta de producto se estructuró utilizando elementos HTML 
 
 Para lograr el diseño deseado de la tarjeta de producto, sigue estos pasos:
 
-Definir estilos básicos para el contenedor y la tarjeta:
-El contenedor debe tener un estilo para centrar su contenido verticalmente y horizontalmente. Puedes lograr esto usando display: flex, justify-content: center y align-items: center.
-La tarjeta debe tener un fondo blanco y algún relleno para separar su contenido del borde. Puedes aplicar esto usando background-color: white y padding.
-Estilizar la imagen del producto:
-La imagen debe ocupar todo el espacio disponible en la tarjeta. Puedes lograr esto usando width: 100% y height: 100% junto con object-fit: cover para mantener la proporción de la imagen.
-Agregar efectos de sombra a la tarjeta:
-Puedes agregar una sombra suave a la tarjeta para hacerla destacar del fondo. Esto se puede lograr utilizando la propiedad box-shadow.
-Estilizar los otros elementos de la tarjeta según sea necesario:
-Define estilos para el título, precio, descripción, botón de "Agregar al carrito", etc., según el diseño específico que desees lograr. Ajusta los tamaños de fuente, márgenes, colores, etc., según sea necesario.
+### Definir estilos básicos para el contenedor y la tarjeta:
+#### El contenedor debe tener un estilo para centrar su contenido verticalmente y horizontalmente. Puedes lograr esto usando display: flex, justify-content: center y align-items: center.
+#### La tarjeta debe tener un fondo blanco y algún relleno para separar su contenido del borde. Puedes aplicar esto usando background-color: white y padding.
+### Estilizar la imagen del producto:
+#### La imagen debe ocupar todo el espacio disponible en la tarjeta. Puedes lograr esto usando width: 100% y height: 100% junto con object-fit: cover para mantener la proporción de la imagen.
+### Agregar efectos de sombra a la tarjeta:
+#### Puedes agregar una sombra suave a la tarjeta para hacerla destacar del fondo. Esto se puede lograr utilizando la propiedad box-shadow.
+```
+.card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -4px 6px 19px 11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 6px 19px 11px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 6px 19px 11px rgba(0, 0, 0, 0.75);
+}
+```
+#### Estilizar los otros elementos de la tarjeta según sea necesario:
+Utiñizar Hover para que cambie el color cuando se pasa el mouse por arriba. En este casi tambien cambia su tamaño
+```
+.btn-toCart {
+  display: flex;
+  width: 213px;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: transparent;
+  border: solid 2px #c9c9da;
+  transition: background-color, transform 1s ease;
+}
 
+.btn-toCart:hover {
+  cursor: pointer;
+  background-color: #c9c9da;
+  transform: scale(1.1);
+  border: solid 1px #3b3b3d;
+}
 
+```
 
+## Conclusiones
+En conclusión, la creación de esta tarjeta de producto fue un ejercicio interesante para practicar mis habilidades en HTML y CSS. Espero que este README te haya proporcionado una buena comprensión del proyecto y de mi proceso de desarrollo.
 
+¡Gracias por revisar mi proyecto!
 
+Para cualquier pregunta o comentario, no dudes en contactarme a través de mi correo electrónico: lohaorellano13@gmail.com
