@@ -11,3 +11,6 @@
 ### Ver demo
 
 [Demo](https://lohanao.github.io/02-blog-preview-card/)
+
+## Solución
+
