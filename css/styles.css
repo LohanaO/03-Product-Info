@@ -22,7 +22,9 @@ body {
   display: flex;
   background-color: white;
   padding: 50px;
-
+ -webkit-box-shadow: -4px 6px 19px 11px rgba(0, 0, 0, 0.75);
+ -moz-box-shadow: -4px 6px 19px 11px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 6px 19px 11px rgba(0, 0, 0, 0.75);
   justify-content: center;
   gap: 20px;
   transition: all 1s ease;
