@@ -1,6 +1,6 @@
 ## RETO N° 3 100 DAYS OF PROYECTS 
 
-### 02-Product-Info
+### 03-Product-Info
 
 <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1714098990726/cc531dd1-4cda-4b85-8151-ed007aa05534.png?auto=compress,format&format=webp" alt="Texto alternativo" width="400"/>
 
